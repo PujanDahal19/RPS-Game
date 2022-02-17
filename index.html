@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="game">
+        <div class="content">
+            <h1 class="title">
+                Rock <span class="line"> Paper</span> Scissor
+            </h1>
+            <a href="#" class="play">
+                Let's Play
+            </a>
+        </div>
+
+        <div class="overlay-content fadeout">
+            <div class="score">
+                <div class="playerscore">
+                    Player <span class="count">0</span>
+                </div>
+                <div class="computerscore">
+                    Computer <span class="count">0</span>
+                </div>
+            </div>
+
+            <div class="result">
+                Choose an option
+            </div>
+            <div class="img-container">
+                <img src="./PNGs/rock.png" alt="rock" class="player-img">
+                <img src="./PNGs/rock.png" alt="rock" class="computer-img">
+            </div>
+            <div class="tabs">
+                <button class="rock" type="button" data-id="rock">rock</button>
+                <button class="paper" type="button" data-id="paper">paper</button>
+                <button class="scissors" type="button" data-id="scissors">scissors</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Link Javascript -->
+    <script src="script.js"></script>
+</body>
+</html>
